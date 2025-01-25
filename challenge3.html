@@ -2,6 +2,10 @@
   .Link {
     color: rgb(0, 113, 133);
   }
+  .Link:hover {
+    color: rgb(189, 98, 7);
+  }
+
   .Price {
     color: rgb(0, 118, 0);
     font-weight: bold;
@@ -15,7 +19,15 @@
     width: 120px;
     margin-right: 10px;
     cursor: pointer;
+    transition: background-color 0.15s;
   }
+  .Cart:hover {
+    background-color: rgb(211, 178, 16);
+  }
+  .Cart:active {
+    opacity: 0.5;
+  }
+
   .Buy {
     background-color: rgb(255, 164, 28);
     color: black;
@@ -24,6 +36,13 @@
     height: 30px;
     width: 120px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .Buy:hover {
+    background-color: rgb(219, 140, 22);
+  }
+  .Buy:active {
+    opacity: 0.5;
   }
 </style>
 
