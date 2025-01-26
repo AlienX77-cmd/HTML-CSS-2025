@@ -153,6 +153,26 @@
   margin-bottom: 50px;
 }
 
+.mutual-friend-photo {
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+  margin-left: 10px;
+}
+
+.friend {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+}
+
+.div-friend {
+  margin-bottom: 10px;
+}
+
 .div {
   text-align: center;
 }
