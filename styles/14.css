@@ -1,0 +1,17 @@
+.bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+}
+
+.sidebar-leftside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: green;
+  color: white;
+}
